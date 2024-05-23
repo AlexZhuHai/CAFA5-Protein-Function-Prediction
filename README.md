@@ -24,15 +24,7 @@
 
 - **t5_to_embedding.ipynb**: 该笔记本使用T5模型将数据转换为embedding。
 
-- **t5-ems-fold-blend.ipynb**: 该笔记本包含方案二的Kaggle代码，涉及embedding融合和模型自我混合，调试后的最高得分为0.54.39。
-
-## 目录结构
-
-- **build/**: 构建相关文件的目录。
-- **dist/**: 项目分发目录。
-- **Sophia/**: 包含Sophia优化器相关文件的目录。
-- **Sophia_Optimizer.egg-info/**: 包含Sophia优化器包元数据的目录。
-
+- **t5-ems-fold-blend.ipynb**: 该笔记本包含方案二的Kaggle代码，涉及embedding融合和模型自我混合，调试后的最高得分为0.5439。
 
 ## 致谢
 

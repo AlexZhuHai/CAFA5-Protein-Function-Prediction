@@ -4,26 +4,26 @@
 
 ## 文件和目录
 
-- **baseline-concatenation.ipynb**: 该笔记本侧重于方案二中的embedding融合和预测结果融合。
+- **t5_to_embedding.ipynb**: 该笔记本使用T5模型将数据转换为embedding。
+
+- **esm2_to_embedding.ipynb**: 该笔记本使用ESM2模型将数据转换为embedding。
+
+- **PreBERT_to_embedding.ipynb**: 该笔记本使用PreBERT模型将数据转换为embedding。
+
+- **data_analysis.ipynb**: 该笔记本从蛋白质功能预测的数据集中提取高频标签，并将这些标签分配给每个蛋白质条目。
+
+- **obonet_view.ipynb**: 该笔记本使用NetworkX和Obonet库处理和分析本体文件中的数据。
+
+- **baseline-t5.ipynb**: 该笔记本包括方案一的单模型优化，使用T5模型结合MLP/CNN的基线代码优化。优化技术包括添加正则化层、修改激活函数、增加神经元数量、实现多头注意力机制等。
   
 - **baseline-esm2.ipynb**: 该笔记本包括使用ESM2模型结合MLP/CNN的基线代码优化。探索了多种优化技术，如添加正则化层、修改激活函数、增加神经元数量、实现多头注意力机制等。
 
 - **baseline-protbert.ipynb**: 该笔记本包括使用ProtBERT模型结合MLP/CNN的基线代码优化。
 
-- **baseline-t5.ipynb**: 该笔记本包括使用T5模型结合MLP/CNN的基线代码优化。优化技术包括添加正则化层、修改激活函数、增加神经元数量、实现多头注意力机制等。
+- **baseline-concatenation.ipynb**: 该笔记本侧重于方案二中的embedding融合和预测结果融合。
 
 - **cafa-final.ipynb**: 该笔记本包含方案二的本地代码，涉及embedding融合和模型自我混合，并附有中文注释。
-
-- **data_analysis.ipynb**: 该笔记本从蛋白质功能预测的数据集中提取高频标签，并将这些标签分配给每个蛋白质条目。
-
-- **esm2_to_embedding.ipynb**: 该笔记本使用ESM2模型将数据转换为embedding。
-
-- **obonet_view.ipynb**: 该笔记本使用NetworkX和Obonet库处理和分析本体文件中的数据。
-
-- **PreBERT_to_embedding.ipynb**: 该笔记本使用PreBERT模型将数据转换为embedding。
-
-- **t5_to_embedding.ipynb**: 该笔记本使用T5模型将数据转换为embedding。
-
+  
 - **t5-ems-fold-blend.ipynb**: 该笔记本包含方案二的Kaggle代码，涉及embedding融合和模型自我混合，调试后的最高得分为0.5439。
 
 ## 致谢

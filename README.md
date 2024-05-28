@@ -24,7 +24,7 @@
 
 - **cafa-final.ipynb**: 该笔记本包含方案二的本地代码，涉及embedding融合和模型自我混合，并附有中文注释。
   
-- **t5-ems-fold-blend.ipynb**: 该笔记本包含方案二的Kaggle代码，涉及embedding融合和模型自我混合，调试后的最高得分为0.5439。
+- **t5-ems-fold-blend.ipynb**: 该笔记本包含方案二的Kaggle代码，涉及embedding融合和模型自我混合，调试后的最高得分为0.54263。
 
 ## 致谢
 
